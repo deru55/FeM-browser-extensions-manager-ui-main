@@ -6,7 +6,8 @@ import { selectSearchTerm } from "../searchBar/searchBarSlice";
 export const loadExtensions = createAsyncThunk(
   "allExtensions/getAllExtensions",
   async () => {
-    const data = await fetch("/src/mocks/extensions.json");
+    /* const data = await fetch("/src/mocks/extensions.json"); */
+    const data = await fetch("./mocks/extensions.json");
     const json = await data.json();
     return json;
   }
