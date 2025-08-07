@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Noto Sans";
   src: local("Noto Sans"),
-    url("/src/assets/fonts/NotoSans-VariableFont_wdth\,wght.ttf")
+    url("/FeM-browser-extensions-manager-ui-main/assets/fonts/NotoSans-VariableFont_wdth\,wght.ttf")
       format("truetype");
 }
 
 @font-face {
   font-family: "Noto Sans";
   font-style: italic;
-  src: url("/src/assets/fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf")
+  src: url("/FeM-browser-extensions-manager-ui-main/assets/fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf")
     format("truetype");
 }
 
