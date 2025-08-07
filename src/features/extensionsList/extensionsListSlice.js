@@ -7,7 +7,9 @@ export const loadExtensions = createAsyncThunk(
   "allExtensions/getAllExtensions",
   async () => {
     /* const data = await fetch("/src/mocks/extensions.json"); */
-    const data = await fetch("./mocks/extensions.json");
+    const data = await fetch(
+      "/FeM-browser-extensions-manager-ui-main/mocks/extensions.json"
+    );
     const json = await data.json();
     return json;
   }
